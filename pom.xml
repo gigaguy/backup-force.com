@@ -6,10 +6,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>com.neowit.apex.backup</groupId>
     <artifactId>backup-force.com</artifactId>
-    <version>0.4.5.0-SNAPSHOT</version>
+    <version>0.5.7.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <inceptionYear>2013</inceptionYear>
-
+ 
     <scm>
         <connection>scm:git:git://github.com/neowit/backup-force.com.git</connection>
         <developerConnection>scm:git:git://github.com/neowit/backup-force.com.git</developerConnection>
@@ -147,7 +147,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <dependency>
             <groupId>com.force.api</groupId>
             <artifactId>force-wsc</artifactId>
-            <version>45.0.0</version>
+            <version>57.0.0</version>
             <scope>compile</scope>
             <exclusions>
                 <exclusion>
@@ -159,7 +159,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <dependency>
             <groupId>com.force.api</groupId>
             <artifactId>force-partner-api</artifactId>
-            <version>45.0.0</version>
+            <version>57.0.0</version>
         </dependency>
     </dependencies>
 </project>
