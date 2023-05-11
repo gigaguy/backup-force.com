@@ -1,6 +1,6 @@
 # backup-force.com
 
-The backup-force.com is a command line tool for automated backups as well as configurable data retrieval from salesforce.
+The backup-force.com is a command line tool for automated backups as well as configurable data retrieval from salesforce forked from the [neowit verion](https://github.com/neowit/backup-force.com) so I could upgrade the SF API.
 It uses Force.com Web Services/SOAP API and/or Bulk API.  
 Amongst other things this tool overcomes a well known shortcoming of Apex DataLoader - with backup-force.com you can automate incremental data retrieval for Objects that support LastModifiedDate.  
 Data is retrieved in .csv format.  
@@ -9,7 +9,7 @@ Usage examples:
 * Backup all (or specific) data from all salesforce objects into .csv files  
 * Incremental Backup - backup data from all or specific objects modified since previous backup  
 * Extract data (full or incremental) from a list of all/specified objects and post-process each resulting .csv file using user defined scripts  
-See [Wiki/Recipes](https://github.com/neowit/backup-force.com/wiki/Recipes) and  [./config/sample-configuration.properties](https://github.com/neowit/backup-force.com/blob/master/config/sample-configuration.properties) file for further inspiration.
+See [Wiki/Recipes](https://github.com/gigaguy/backup-force.com/wiki/Recipes) and  [./config/sample-configuration.properties](https://github.com/gigaguy/backup-force.com/blob/master/config/sample-configuration.properties) file for further inspiration.
 
 
 ## System requirements
@@ -18,7 +18,7 @@ See [Wiki/Recipes](https://github.com/neowit/backup-force.com/wiki/Recipes) and 
 
 ## Running
 
-* Visit [releases](https://github.com/neowit/backup-force.com/releases) page and download `backup-force.com-<version>.jar`
+* Visit [releases](https://github.com/gigaguy/backup-force.com/releases) page and download `backup-force.com-<version>.jar`
 * create config file using [./config/sample-configuration.properties](https://github.com/neowit/backup-force.com/blob/master/config/sample-configuration.properties) as an example
 * execute process (in this example I use version 0.1)  
   `java -jar backup-force.com-0.1.jar --config /full/path/to/myconf.properties`  
@@ -70,7 +70,7 @@ Present workaround (if your Org has very large files 20MB+ and the above trick w
  
 
 ## Building backup-force.com
-    git clone git@github.com:neowit/backup-force.com.git
+    git clone git@github.com:gigaguy/backup-force.com.git
     mvn clean package
 
 ## Legal stuff
