@@ -19,7 +19,7 @@ See [Wiki/Recipes](https://github.com/gigaguy/backup-force.com/wiki/Recipes) and
 ## Running
 
 * Visit [releases](https://github.com/gigaguy/backup-force.com/releases) page and download `backup-force.com-<version>.jar`
-* create config file using [./config/sample-configuration.properties](https://github.com/neowit/backup-force.com/blob/master/config/sample-configuration.properties) as an example
+* create config file using [./config/sample-configuration.properties](https://github.com/gigaguy/backup-force.com/blob/master/config/sample-configuration.properties) as an example
 * execute process (in this example I use version 0.1)  
   `java -jar backup-force.com-0.1.jar --config /full/path/to/myconf.properties`  
   or if you want to direct output to a file instead of console:  
@@ -28,7 +28,7 @@ See [Wiki/Recipes](https://github.com/gigaguy/backup-force.com/wiki/Recipes) and
 ## Video instructions   
 * [Installation](http://youtu.be/eyIkdsSBpLY) - describes initial installation and first launch
 * [Basic config example](http://youtu.be/ptMc-7hp5qA) - an example of backup-force.com configuration to extract/backup data from 2 selected Salesforce.com objects
-* see [Wiki](https://github.com/neowit/backup-force.com/wiki) for further information
+* see [Wiki](https://github.com/gigaguy/backup-force.com/wiki) for further information
 
 ## Features
 
